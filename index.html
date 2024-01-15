@@ -18,13 +18,19 @@
       background-color: #4CAF50;
       color: white;
     }
+
+    .floating-img {
+        position: fixed;
+        right: 0;
+        width: 200px; 
+      }
   </style>
 </head>
 
 <body>
   <h1 style="text-align:center;font-size: 30px;">深圳市房屋租赁参考价格</h2>
   <h2 style="text-align:right;font-size: 15px;">数据截至日期:2024-1-1</h2>
-
+  <img class="floating-img" src="./AD1.jpg">
   <input style="width:250px;height:30px" type="text" id="searchCommunity" onkeyup="searchFunction()" placeholder="搜索行政区...">
   <input style="width:250px;height:30px" type="text" id="searchZone" onkeyup="searchFunction()" placeholder="搜索街道...">
   <input style="width:250px;height:30px" type="text" id="searchName" onkeyup="searchFunction()" placeholder="搜索楼盘名称...">
